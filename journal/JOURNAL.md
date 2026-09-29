@@ -23,7 +23,8 @@
 | # | Name | Status | Key result |
 |---|---|---|---|
 | 01 | dummy | done | MAE 13.49 ± 0.32 · RMSE 16.50 ± 0.34 · R² ≈ 0.00 (mean-predict baseline) |
-| 02 | linear | done | MAE 8.40 ± 0.14 · RMSE 10.41 ± 0.19 · R² 0.60 ± 0.01 (Ridge + median impute + OHE) |
+| 02 | linear | done | MAE 8.40 ± 0.14 · RMSE 10.41 ± 0.19 · R² 0.60 ± 0.01 (Ridge + median impute + OHE + StandardScaler) |
+| 03 | tuned_gbr | done | MAE 5.91 ± 0.07 · RMSE 7.51 ± 0.11 · R² 0.79 ± 0.01 (GBR lr=0.1 depth=5 n=300 GridSearchCV) |
 
 ## Backlog
 
