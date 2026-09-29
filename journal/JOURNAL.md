@@ -22,7 +22,7 @@
 
 | # | Name | Status | Key result |
 |---|---|---|---|
-| — | — | — | — |
+| 01 | dummy | done | MAE 13.49 ± 0.32 · RMSE 16.50 ± 0.34 · R² ≈ 0.00 (mean-predict baseline) |
 
 ## Backlog
 
